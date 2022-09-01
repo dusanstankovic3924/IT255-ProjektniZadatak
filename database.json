@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "email": "admin@admi.com",
+      "username": "admin",
+      "password": "admin",
+      "admin": true
+    },
+    {
+      "name": "Pera Peric",
+      "email": "pera@gmail.com",
+      "username": "pera.peric",
+      "password": "123",
+      "admin": false,
+      "id": 2
+    },
+    {
+      "name": "Dusan",
+      "email": "dusan@gmail.com",
+      "username": "duxy",
+      "password": "duxy",
+      "admin": false,
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "userId": 1,
+      "title": "Mali princ",
+      "body": "Priču o malom princu nam priča avijatičar, koji je imao susret sa njim. Taj avijatičar je kao dete voleo da crta, a kad je imao šest godina, nacrtao je jedan crtež zmijskog cara koji je progutao slona. Ali, kada bi odraslima pokazao taj svoj crtež, odgovorili bi mu da na crtežu vide samo šešir. Uzaludno je pokušavao da im objasni kako je na crtežu zmijski car koji je progutao slona, svi su videli samo šešir. Govorili su mu i da umesto crtanja treba da se bavi ozbiljnijim stvarima. Tako su ga obeshrabrili da nastavi sa crtanjem. Kada je odrastao, postao je avijatičar. Jednom prilikom, dok je letio iznad pustinje Sahare, njegov avion se pokvario, pa je morao da sleti i sam popravi kvar.",
+      "date": "2022-09-01T15:10:35.751Z",
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "title": "starac i more",
+      "body": "starac otiso da peca na more",
+      "date": "2022-09-01T16:11:03.090Z",
+      "id": 2
+    }
+  ]
+}

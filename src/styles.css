@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Archivo&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #0d3966 !important;
+  color: #fff;
+  font-family: "Archivo", sans-serif !important;
+}
+
+.row.row-cols-4 .col {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  background: #02448675;
+  color: #fff;
+}
+
+.form-control:focus {
+  background: #085eb4;
+  color: #fff;
+}
+
+.card-header {
+  border-bottom-color: #6c757d !important;
+}
+
+.card-footer {
+  border-top-color: #6c757d !important;
+}
+
+.accordion-button {
+  background-color: rgba(8, 71, 165, 0.25);
+}

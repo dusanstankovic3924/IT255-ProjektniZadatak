@@ -1,0 +1,34 @@
+<form [formGroup]="this.postForm" (ngSubmit)="onSubmit()">
+  <div class="mb-3">
+    <label for="title" class="form-label">Naslov</label>
+    <input
+      type="text"
+      id="title"
+      class="form-control"
+      formControlName="title"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="body" class="form-label">Opis</label>
+    <textarea id="body" class="form-control" formControlName="body"></textarea>
+  </div>
+  <input type="hidden" formControlName="id" />
+  <input type="hidden" formControlName="userId" />
+  <input type="hidden" formControlName="date" />
+  <button *ngIf="this.new" type="submit" class="btn btn-primary">
+    Dodaj novu lektiru
+    <i class="ms-1 fa fa-check-circle"></i>
+  </button>
+  <button *ngIf="!this.new" type="submit" class="btn btn-warning">
+    Ažuriraj lektiru
+    <i class="ms-1 fa fa-check-square"></i>
+  </button>
+  <button
+    type="button"
+    class="ms-3 btn btn-secondary"
+    (click)="this.clearState()"
+  >
+    Očisti
+    <i class="ms-1 fa fa-times"></i>
+  </button>
+</form>
